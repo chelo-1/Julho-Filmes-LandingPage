@@ -1,0 +1,178 @@
+/* pagInicial */
+
+#paginaInicial {
+    height: 110vh;
+}
+
+#paginaInicial #whoAmI {
+    width: 420px;
+    /* background-color: #003972b7 */
+    margin: 50px 0px 0px 0px;
+}
+#paginaInicial #center {
+    margin-top: 100px;
+    /* backgroud-color: #ddd; */
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#paginaInicial #whoAmI #julhoImg {
+    width: 178px;
+    height: 360px;
+    /* margin-left: 35px; */
+    background-color: white;
+    background-image: url("../imgs/julho.png");
+    background-repeat: no-repeat;
+    background-size: 300%;
+    background-position: center;
+    float: left;
+}
+#paginaInicial #whoAmI p {
+    margin-top: -5px;
+    width: 200px;
+}
+#paginaInicial #whoAmI #texto {
+    width: 178px;
+    text-align: justify;
+    height: 302px;
+    float: right;
+    padding-right: 30px;
+    font-size: 14.5px;
+    margin-bottom: 110px;
+
+}
+
+#paginaInicial #myJob #wai {
+    padding-top: 145px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#Trabalho #Habilidades {
+    width: 242px;
+    height: 54px;
+    padding-left: 130px;
+}
+
+#AboutMYJob{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: -10px;
+}
+
+#AboutMYJob #texto {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    /* background-color: #000; */
+}
+
+#AboutMYJob #texto p {
+    /* background-color: #000; */
+    width: 420px;
+    padding-left: 424px;
+    margin-top: 22px;
+}
+
+#TextoMEUTrabalho {
+    /* background-color: #000; */
+    text-align: justify;
+    font-size: 14.5px;
+    /* padding-left: 38px; */
+    margin-top: -50px;
+    margin-bottom: -15px;  
+    font-weight: normal;
+
+}
+
+#Vídeo-1 #VídeoPrincipal {
+    padding-right: 10px;
+    padding-top: 35px;
+    margin-bottom: 10px;
+    width: 425px;
+    height: 236px;
+}
+
+#GIF-Trabalho #Trabalho {
+    float: left;
+    height: 103px;
+    width: 183px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+#Vídeo-Trabalho #Trabalho2 {
+    width: 425px;
+    height: 236px;
+    float: right;
+    padding-right: 32px;
+    margin-bottom: 16px;
+}
+
+#Vídeo-Trabalho #Trabalho3 {
+    width: 425px;
+    height: 236px;
+    float: left;
+    padding-left: 23px;
+    margin-bottom: 50px;
+}
+
+#Vídeo-Trabalho #Trabalho4 {
+    width: 184px;
+    height: 103px;
+    float: right;
+    padding-right: 50px;
+    margin-bottom: 50px;
+}
+
+input {
+    border: none;
+}
+
+#Button #button {
+    border-radius: 2em;
+    background-color: #004488;
+    border: none;
+    color: white;
+    padding: 20px;
+    margin-top: -110px;
+}
+
+#Button #button:hover {
+    background-color: #fff;
+    color: #004488;
+    cursor: pointer;
+}
+
+#Button input {
+    font-size: 13px;
+}
+
+#BoxFinal {
+    /* display: flex;
+    justify-content: center; */
+    margin-top: -25px;
+    background-color: #003972;
+    background-image: linear-gradient(to top, #003972, #003972ff);
+    width: 480px;
+    height: 19vh;
+}
+
+#BoxFinal #Texto1 {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#BoxFinal #SubTexto {
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #58aafc;
+    margin-top: -35px;
+    cursor: pointer;
+}

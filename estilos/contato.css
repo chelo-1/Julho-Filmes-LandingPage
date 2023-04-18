@@ -1,0 +1,104 @@
+#container {
+    width: 480px;
+    background-color: #004080;
+    /* overflow:  */
+}
+
+#modoContato #content h1 {
+    margin-top: 25px;
+}
+
+#modoContato {
+    display: none;
+}
+
+#content #conversar {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    width: 480px;
+    height: 18vh;
+    /* text-align: center; */
+    /* background-color: #000; */
+}
+#content #contato {
+    height: 40vh;
+    background-color: #003f7e;
+    padding: 40px 0px 10px 0px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+#content #contato .message {
+    width: 410px;
+    height: 200px;
+    resize: none;
+    border: none;
+    border-radius: 1em;
+    padding: 15px 2px 0px 20px;
+    margin-top: -20px;
+}
+
+
+#content #contato input {
+    border: none;
+    padding: 2px 0px 2px 5px;
+}
+
+#content #contato #button {
+    background-color: #004488;
+    border: none;
+    color: white;
+    padding: 20px;
+    float: right;
+    margin-bottom: 40px;
+    margin-bottom: 80px;
+}
+
+#content #contato #button:hover {
+    background-color: #fff;
+    color: #004080;
+}
+
+#content #contato input {
+    font-size: 13px;
+    border-radius: 2em;
+    padding: 2px 2px 2px 20px;
+}
+
+#content #conversar p {
+    margin-left: -185px;
+    font-size: 13px;
+    text-align: center;
+    width: 360px;
+}
+
+#content #imgTxt {
+    /* background-color: white; */
+    width: 480px;
+    height: 302px;
+
+}
+
+#content #imgTxt #quemSouEu #julho {
+    float: left;
+    margin-left: 50px;
+    width: 178px;
+    height: 30px;
+    background-image: url(../imgs/julho.png);
+    background-repeat: no-repeat;
+    background-size: 260%;
+    background-position: center;
+}
+
+#content #imgTxt #quemSouEu #textu {
+    /* font-family: Arial; */
+    float: initial;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 13px;
+    width: 178px;
+    height: 302px;
+}

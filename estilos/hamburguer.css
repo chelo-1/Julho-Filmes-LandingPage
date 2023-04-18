@@ -1,0 +1,41 @@
+.MenuHamburguer {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	background-color: #003972;
+    position: fixed;
+    width: 480px;
+	bottom: 0;
+	/* width: 100%; */
+  }
+  
+.MenuHamburguer a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+.MenuHamburguer a:hover {
+	/* transition: 2s; */
+	background: #f1f1f1;
+	color: black;
+	cursor: context-menu;
+	}
+.MenuHamburguer a:not(hover) {
+	transition: 2s;	
+}
+  
+.MenuHamburguer a.active {
+	background-color: #004488;
+	color: white;
+}
+
+
+.MenuHamburguer a.orca {
+	background-color: #004488;
+	color: white;
+}

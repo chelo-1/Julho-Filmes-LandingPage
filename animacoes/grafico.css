@@ -1,0 +1,78 @@
+
+:root {
+    --cor1: #ffab2c;
+    --cor2: #ca8a36;
+}
+
+#graf1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #999; */
+    overflow: hidden;
+    height: 75px;
+    width: 120px;
+
+}
+
+#grafic {
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 85px;
+    height: 100px;
+    width: 120px;
+    border-radius: 50%;
+    /* border-image: linear-gradient(-135deg, #ddd777 50%, rgba(255, 26, 255, 0.3) 50%); */
+    border-image-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.33, rgb(14,173,173)), color-stop(0.67, rgb(0,255,255)));
+    background-image: linear-gradient(-135deg, #ddd777 50%, rgba(80, 13, 80, 0.3) 50%);  
+    padding: 2px;
+    
+    /* background:  */
+}
+
+p{
+    position: absolute;
+    /* background-color: red; */
+    margin-top: 35px;
+    z-index: 10;
+    /* margin-right: -25px; */
+    transform: rotate(0deg);
+}
+
+#text {
+    color: var(--cor1);
+}
+
+.g {
+    
+    margin-top: 85px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    
+        animation: 1s carregando;
+        animation-timing-function: smooth;
+        background-image: linear-gradient(-135deg, var(--cor1) 50%, var(--cor2) 50%);   
+        transition: 2s;
+    
+        padding: 2px;
+        }
+        
+        .g > div {
+            
+            display: flex;
+            justify-content: center;
+            background: #004080;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+@keyframes carregando{
+    0% {
+        transform: rotate(135deg);
+    }
+}
