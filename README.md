@@ -1,5 +1,6 @@
 # Landing Page WEBSITE
 
+> Status: Finalizado! :check_status:
 Hello, I made this landing page using HTML, CSS and Javascript. I had help from a friend to 
 design the site, we made the site for evaluation by the Technical Institute of Barueri.
 
